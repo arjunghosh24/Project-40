@@ -58,10 +58,10 @@ class Game{
                        
                      if(index === player.index){
                          
-                         fill("red");
+                         fill("black");
                          textSize(20);
                          // add code to display the player name on the respective basket
-                        text(players[index].name, players[index].position.x, players[index].position.y, 10, 10);
+                        text(players[index - 1].name, players[index - 1].position.x, players[index - 1].position.y, 10, 10);
                          
                      }
                     
